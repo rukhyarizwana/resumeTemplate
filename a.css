@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    text-align: center;
+    padding-bottom:20px;
+}
+#main-cont{
+    margin-top: 20px;
+    margin-left: 130px;
+    border: 1px solid black;
+    padding: 20px 50px 20px 50px;
+    width: 1000px;
+   
+}
+#p{
+    margin: 5px;
+}
+#gender{
+    margin-left:30px;
+    padding-bottom: 1rem;
+}
+.sub-div{
+    margin-top: 50px;
+   background-color: beige;
+}
+.sub-div h4{
+    background-color: rgb(159, 158, 157);
+    padding-left: 10px;
+}
+label h6{
+    font-size: 14px;
+    color: #6e6a6a;
+}
+
+
+
+/* ************************           Resume css             *************************** */
+
+
+
+body{
+     background-color: #f8f8f8;
+     padding: 50px;
+}
+#main-div{
+    box-shadow: rgba(100,100,111,0.2)0px 7px 29px 0px;
+    width: 700px;
+    height: 900px;
+    margin-top: 50px;
+}
+/* name and contact */
+.super-div-top{
+    background-color: rgb(48, 47, 47);
+    height:20%;
+    width:auto;
+    clip-path: polygon(0 0,100% 0,100% 75%,0 100%);
+}
+/* bottom resume contect */
+.super-div-bottom{
+    height: 80%;
+    width:auto;
+}
+/* name */
+#sub-div-left-top{
+    height: auto;
+    width: 60%;
+}
+/* contact */
+#sub-div-right-top{
+    padding-top: 40px;
+    height: auto;
+    width: 40%;
+}
+/* bottom left box of about me,skills,lang */
+#sub-div-left-bottom{
+    height: auto;
+    width: 30%;
+}
+/* bottom right content of education,acheivemnts,intersts */
+#sub-div-right-bottom{
+    height: auto;
+    width: 70%;
+}
+/* name properties */
+#sub-div-left-top h2{
+    color: white;
+    font-size: 34px;
+    font-weight:400;
+    padding-top:65px;
+    padding-left:20px;
+}
+/* contact text like nbr,email,location */
+#sub-div-right-top .text{
+    color: white;
+    font-size: 10px;
+    font-weight:200; 
+}
+/* icon class */
+.icon{
+    color: white;
+}
+
+/* ul class */
+.contact-div{
+    text-align: right;
+}
+
+
+/* 4 left divs  */
+/* about me div */
+.left1{
+border-bottom: 2px solid gray;
+width: 100%;
+height: 34%;
+padding: 5px;
+padding-top:15px;
+}
+
+/* technical skills div */
+.left2{
+border-bottom: 2px solid gray;
+width: 100%;
+height: 22%;
+padding-top:15px;
+}
+
+/* professional skills div */
+.left3{
+border-bottom: 2px solid gray;
+width: 100%;
+height: 22%; 
+padding-top:15px;   
+}
+
+/* languages div */
+.left4{
+width: 100%;
+height: 22%; 
+padding-top:15px;  
+}
+
+/* 3 right divs */
+/* education */
+.right1{
+    border-bottom: 2px solid gray;
+    width: 100%;
+    height:54.25% ;
+}
+/* achievements */
+.right2{
+    border-bottom: 2px solid gray;
+    width: 100%;
+    height: 22.25%;
+}
+/* intrests */
+.right3{
+    width: 100%;
+    height: 23.50%;
+}
+/* aboutme heading properties */
+.left1 h5{
+    padding-top: 8px;
+    font-weight: 700;
+    font-size: 15px;
+}
+/* aboutme para properties */
+.left1 p{
+    font-size:10px ;
+    font-weight: 500;
+}
+/* technical skills heading properties */
+.left2 h5{
+    padding-top: 8px;
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 5px;
+}
+/*  technical skills list properties */
+.left2  li{
+    font-size:11px ;
+    font-weight: 500;
+   
+}
+/*  technical skills ul class */
+.left2-list{
+    padding-left: 24px;
+}
+/* professional skills heading properties */
+.left3 h5{
+    padding-top: 8px;
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 5px;
+}
+/* professional skills list properties */
+.left3  li{
+    font-size:11px ;
+    font-weight: 500; 
+    
+}
+/* professional skills ul class */
+.left3-list{
+    padding-left: 10px;
+    
+}
+/* languages heading properties  */
+.left4 h5{
+    padding-top: 8px;
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 5px;
+}
+/* languages list properties */
+.left4  li{
+    font-size:12px ;
+    font-weight: 500; 
+    
+}
+/*  languages list ul class */
+.left4-list{
+    padding-left: 10px;
+    
+}
+
+/* education */
+.right1 h4{
+    font-size:15px;
+    padding-top: 8px;
+    font-weight: 700;
+    margin-left:10px;
+    margin-top:12px;
+}
+
+/* education div for bsc */
+.top-a{
+    height: 116px;
+    padding-top: 8px;
+    font-weight: 700;
+    font-size: 15px;
+}
+/* education div for inter */
+.top-b{
+    height: 116px;
+}
+/* education div for 10th */
+.top-c{
+    height: 116px;
+}
+/* bsc 'year' */
+.top-a-left{
+    height:100%;
+    width: 20%;
+    float: left;
+}
+/* bsc content */
+.top-a-right{
+    height:100%;
+    width: 80%;
+    float: left;
+}
+/* arranging  top-a-left &top-a-right side by side */
+.top-a::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+/* inter year */
+.top-b-left{
+    height:100%;
+    width: 20%;
+    float: left;
+}
+/* inter content */
+.top-b-right{
+    height:100%;
+    width: 80%;
+    float: left;
+}
+/* arranging  top-b-left &top-b-right side by side */
+.top-b::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+/* 10th year */
+.top-c-left{
+    height:100%;
+    width: 20%;
+    float: left;
+}
+/* 10th content */
+.top-c-right{
+    height:100%;
+    width: 80%;
+    float: left;
+}
+/* arranging  top-c-left &top-c-right side by side */
+.top-c::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+/* year properties */
+.top-a-left h6,.top-b-left h6,.top-c-left h6{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-left: 3px;
+}
+/* content heading(bsc,inter,10th) properties */
+.top-a-right h5,.top-b-right h5,.top-c-right h5{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+/* bsc content left */
+.top-a-right-row1{
+    /* border: 2px solid blue; */
+    width: 35%;
+    height:70%;
+    padding-left: 5px;
+    float: left;
+}
+/* bsc content right */
+.top-a-right-row2{
+    /* border: 2px solid blue; */
+    width: 65%;
+    height:70%;
+    float: left;
+}
+/* arranging  top-a-left-row1 &top-a-right-row2 side by side */
+.top-a-right::after{
+    content:'';
+    display: block;
+    clear: both;
+} 
+/* bsc box1 properties */
+.top-a-right-row1 ul.boxa1{
+    font-size: 10px;
+    padding-left: 0;
+    font-weight: 500;
+}
+/* bsc box2 properties */
+.top-a-right-row2 ul.boxa2{
+    font-size: 10px;
+    padding-left: 0;
+    font-weight: 500;
+}
+/* inter content left */
+.top-b-right-row1{
+    /* border: 2px solid blue; */
+    width: 35%;
+    height:70%;
+    padding-left: 5px;
+    float: left;
+}
+/* inter content right */
+.top-b-right-row2{
+    /* border: 2px solid blue; */
+    width: 65%;
+    height:70%;
+    float: left;
+}
+/* arranging  top-b-left-row1 &top-b-right-row2 side by side */
+.top-b-right::after{
+    content:'';
+    display: block;
+    clear: both;
+} 
+/* inter box1 properties */
+.top-b-right-row1 ul.boxb1{
+    font-size: 10px;
+    padding-left: 0;
+    font-weight: 500;
+}
+/* inter box2 properties */
+.top-b-right-row2 ul.boxb2{
+    font-size: 10px;
+    padding-left: 0;
+    font-weight: 500;
+}
+
+/* 10th content left */
+.top-c-right-row1{
+    width: 35%;
+    height:70%;
+    padding-left: 5px;
+    float: left;
+}
+/* 10th content right */
+.top-c-right-row2{
+    width: 65%;
+    height:70%;
+    float: left;
+}
+/* arranging  top-c-left-row1 &top-c-right-row2 side by side */
+.top-c-right::after{
+    content:'';
+    display: block;
+    clear: both;
+} 
+/* 10th box1 properties */
+.top-c-right-row1 ul.boxc1{
+    font-size: 10px;
+    padding-left: 0;
+    font-weight: 500;
+   
+}
+/* 10th box2 properties */
+.top-c-right-row2 ul.boxc2{
+    font-size: 10px;
+    padding-left: 0;
+    font-weight: 500;
+}
+/* right2 Achievements */
+.right2 h4{
+    font-size: 15px;
+    padding-top: 20px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.right2 h6{
+    font-size: 12px;
+    font-weight: 600;
+    padding-left:10px;
+}
+.right2 p{
+    font-size:11px ;
+    font-weight: 500; 
+    padding-left: 10px;
+}
+/* Interests */
+.right3 h4{
+    font-size: 15px;
+    padding-top: 23px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.right3 ul.interests{
+    font-size:12px ;
+    font-weight: 500; 
+    padding-left: 10px;
+}
+.boxa1,.boxa2,.boxb1,.boxb2,.boxc1,.boxc2,.right2 p,.right3 ul.interests{
+    color: #706868;
+    /* color: #6e6a6a; */
+}
